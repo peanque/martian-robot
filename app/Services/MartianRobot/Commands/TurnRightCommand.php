@@ -2,7 +2,7 @@
 
 namespace App\Services\MartianRobot\Commands;
 
-use App\Services\MartianRobot\Contracts\MovableInterface;
+use App\Services\Common\Contracts\MovableInterface;
 
 class TurnRightCommand extends MovementCommand
 {

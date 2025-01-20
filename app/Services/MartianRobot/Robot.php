@@ -10,6 +10,12 @@ class Robot implements MovableInterface
     private string $orientation;
     private Position $position;
 
+    public function __construct(Position $position, string $orientation)
+    {
+        $this->position = $position;
+        $this->orientation = $orientation;
+    }
+
     public function getOrientation(): string
     {
         return $this->orientation;
